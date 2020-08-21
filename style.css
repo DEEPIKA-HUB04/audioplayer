@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;  
+    background-color:rosybrown;
+ 
+}
+
+.audioPlayer {
+
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px #888888;
+  width: 300px;
+  display: flex;
+
+ 
+}
+
+.playlist{
+
+    background: blue no-repeat fixed center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  
+}
+
+a {
+    padding: .75rem 2.5rem;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            color: #fff;
+            text-decoration: none;
+}
+
+i { 
+    font-size: .75rem;
+    margin-right: .5rem;
+}
+
